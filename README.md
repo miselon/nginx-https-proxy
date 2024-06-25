@@ -1,5 +1,5 @@
 # nginx HTTPS proxy
-This repository contains a bash setup script for creating a fully configured nginx HTTPS proxy Docker image for local web development.
+This repository contains a bash script that creates a fully set-up nginx HTTPS proxy for local web development.
 
 ### How to use it?
 Run the script:
@@ -7,6 +7,7 @@ Run the script:
 ./setup.sh
 ```
 ... and follow instructions in the script's output.
+Requires Docker or optionally Docker Compose to run. 
 ### What does it do?
 - creates a Certificate Authority
 - generates certificates for a given domain and signs them using aforementioned CA
